@@ -1,0 +1,157 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+  color: #5D5E5E;
+}
+
+
+.container {
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+padding: 0;
+}
+
+.container li {
+  list-style: none;
+  display: inline;
+}
+
+/*Arun I'm having some issues getting "Better Dressed People" to show inline with "Sartre's list". I'm also having trouble getting both "Sartre's List" and "Better Dressed People" to align to the left. How do I solve this?*/
+
+.row {
+    overflow:hidden;
+}
+
+#header {
+  font-size: 2.5em;
+}
+
+.date {
+  font-size: 2em;
+    color: #BDBBBB;
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.see-more {
+  color: #F50707;
+  text-align: right;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.article-divider {
+    border-top:#CCC 1px solid;
+    margin:20px 20px;
+}
+
+.article-title {
+  font-size: 2em;
+}
+
+.article-image {
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+
+h1 {
+  color: #F50707;
+ }
+
+h1 small {font-size: small;
+  color: #BDBBBB;
+}
+
+.topnav a {
+    display:block;
+    padding:15px;
+    background-color:#000;
+    color:#BDBBBB;
+    font-size:18px;
+    border-right:#FFF 1px solid;
+}
+
+bottom-nav {
+  text-align: center;
+  background-color: transparent;
+}
+
+.bottom-nav li {
+  list-style: none;
+  display: inline;
+  color: #F50707;
+}
+
+.divider {
+  color:#BDBBBB;
+}
+
+.txt-center {
+    text-align:center;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.margin-left {
+  margin-left: 0;
+}
+
+.copyright {
+  text-align: left;
+  color: #BDBBBB;
+  padding-bottom: 20px;
+}
+
+.side-header {
+  font-weight: bold;
+  color: #5D5E5E;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.col-2, .col-8, .col-4, .col-3, .col-7 {
+    float:left;
+    box-sizing: border-box;
+}
+
+.col-2 {
+    width:16.6666666666%;
+}
+
+.col-8 {
+    width:66.66666666666%;
+}
+
+.col-4 {
+    width:33.33333333%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.col-3 {
+  width: 25%;
+
+}
+
+.col-7 {
+  width:75%;
+
+}
+
+.popular-posts {
+  list-style-type: circle;
+}
+
+/*Arun, having the worst time getting the bullets to show bak cup again, how do I do this?*/
+
+.popular-posts li {
+  color: #F50707;
+}
