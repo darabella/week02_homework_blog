@@ -3,12 +3,21 @@ body {
   color: #5D5E5E;
 }
 
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  width: 99%;
+}
 
 .container {
-width: 1000px;
-margin-left: auto;
-margin-right: auto;
-padding: 0;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow:hidden;
+  padding: 0;
 }
 
 .container li {
@@ -16,28 +25,31 @@ padding: 0;
   display: inline;
 }
 
-/*Arun I'm having some issues getting "Better Dressed People" to show inline with "Sartre's list". I'm also having trouble getting both "Sartre's List" and "Better Dressed People" to align to the left. How do I solve this?*/
-
 .row {
-    overflow:hidden;
+  overflow:hidden;
 }
 
 #header {
   font-size: 2.5em;
 }
 
+.items:hover {
+  background-color: red;
+  color:white;
+}
+
 .date {
   font-size: 2em;
-    color: #BDBBBB;
+  color: #BDBBBB;
 }
 
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 
 }
 
 a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .see-more {
@@ -48,8 +60,8 @@ a:visited {
 }
 
 .article-divider {
-    border-top:#CCC 1px solid;
-    margin:20px 20px;
+  border-top:#CCC 1px solid;
+  margin:20px 20px;
 }
 
 .article-title {
@@ -57,26 +69,25 @@ a:visited {
 }
 
 .article-image {
-    padding-bottom: 15px;
-    width: 100%;
+  padding-bottom: 15px;
+  width: 100%;
 }
-
 
 h1 {
   color: #F50707;
- }
+}
 
 h1 small {font-size: small;
   color: #BDBBBB;
 }
 
 .topnav a {
-    display:block;
-    padding:15px;
-    background-color:#000;
-    color:#BDBBBB;
-    font-size:18px;
-    border-right:#FFF 1px solid;
+  display:block;
+  padding:15px;
+  background-color:#000;
+  color:#BDBBBB;
+  font-size:18px;
+  border-right:#FFF 1px solid;
 }
 
 bottom-nav {
@@ -95,9 +106,9 @@ bottom-nav {
 }
 
 .txt-center {
-    text-align:center;
-    font-size: 18px;
-    padding-top: 30px;
+  text-align:center;
+  font-size: 18px;
+  padding-top: 30px;
 }
 
 .margin-left {
@@ -118,32 +129,35 @@ bottom-nav {
 }
 
 .col-2, .col-8, .col-4, .col-3, .col-7 {
-    float:left;
-    box-sizing: border-box;
+  float:left;
+  box-sizing: border-box;
 }
 
 .col-2 {
-    width:16.6666666666%;
+  width:16.6666666666%;
+  min-width: 150px;
 }
 
 .col-8 {
-    width:66.66666666666%;
+  width:66.66666666666%;
+  min-width: 500px;
 }
 
 .col-4 {
-    width:33.33333333%;
-    padding-top: 20px;
-    padding-left: 20px;
+  width:33.33333333%;
+  min-width:400px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 .col-3 {
   width: 25%;
-
+  min-width: 250px;
 }
 
 .col-7 {
   width:75%;
-
+min-width: 6000px;
 }
 
 .popular-posts {
@@ -152,6 +166,8 @@ bottom-nav {
 
 /*Arun, having the worst time getting the bullets to show bak cup again, how do I do this?*/
 
-.popular-posts li {
+.popular-posts a {
   color: #F50707;
+  list-style-type: circle;
+  text-decoration: none;
 }
